@@ -1,0 +1,28 @@
+@use "_body.scss";
+@use "_colors.scss" as *;
+.container {
+  width: 250px;
+  height: 400px;
+  margin: 130px auto;
+  padding: 1rem;
+  background: $White;
+  border-radius: 20px;
+  img {
+    aspect-ratio: 1;
+    width: 250px;
+    border-radius: 5%;
+  }
+  h1 {
+    text-align: center;
+    color: $Dark-blue;
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+  p {
+    text-align: center;
+    color: $Grayish-blue;
+    font-weight: 400;
+    font-size: .9375rem;
+    margin: auto;
+  }
+}
